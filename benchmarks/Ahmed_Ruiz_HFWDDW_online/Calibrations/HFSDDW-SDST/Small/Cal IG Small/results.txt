@@ -1,0 +1,1 @@
+for /r "C:\Users\Ahmed\Desktop\New folder" %%i in (*.txt) do for /f "delims=" %%j in ('type "%%i"') do echo %%j>> resultat.txt

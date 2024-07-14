@@ -1,0 +1,1 @@
+for /r "C:\Users\Ahmed\Pictures\Calibration ADA Small\3rd Cal ADA\3rd Cal ADA Small" %%i in (*.m) do for /f "delims=" %%j in ('type "%%i"') do echo %%j>> resultat.txt

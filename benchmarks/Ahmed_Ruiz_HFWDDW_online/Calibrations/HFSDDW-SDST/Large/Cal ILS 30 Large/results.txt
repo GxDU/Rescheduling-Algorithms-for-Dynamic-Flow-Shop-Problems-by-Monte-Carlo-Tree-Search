@@ -1,0 +1,1 @@
+for /r "C:\Users\Ahmed\Pictures\SDST Instances\Calibration folder\Cal ILS 30" %%i in (*.m) do for /f "delims=" %%j in ('type "%%i"') do echo %%j>> resultat.txt
